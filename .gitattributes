@@ -1,0 +1,6 @@
+.csv filter=lfs diff=lfs merge=lfs -text
+datatran2021.csv filter=lfs diff=lfs merge=lfs -text
+datatran2022.csv filter=lfs diff=lfs merge=lfs -text
+datatran2023.csv filter=lfs diff=lfs merge=lfs -text
+datatran2024.csv filter=lfs diff=lfs merge=lfs -text
+datatran2025.csv filter=lfs diff=lfs merge=lfs -text
