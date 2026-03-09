@@ -1,0 +1,46 @@
+DICIONÁRIO DE DADOS – DATASET ACIDENTES DE TRÂNSITO (PRF)
+
+Integrantes:
+Ryan Cruz Silva
+Rodrigo Cavalheiro
+Rafael de Sousa Rodrigues Pinto
+
+Introdução
+
+Um dicionário de dados é um documento que descreve detalhadamente as variáveis presentes em um conjunto de dados. Ele serve para facilitar o entendimento das informações armazenadas, explicando o significado de cada variável, seu tipo de dado e o formato dos valores utilizados.
+O conjunto de dados utilizado neste trabalho refere-se a registros de acidentes de trânsito por ocorrencia em rodovias federais brasileiras, coletados pela Polícia Rodoviária Federal (PRF). O dataset contém diversas informações sobre os acidentes, como data, local, tipo de ocorrência, condições da via, quantidade de vítimas e veículos envolvidos.
+
+Dicionário de Dados:
+
+VARIÁVEL, DESCRIÇÃO, TIPO EM R, VALOR
+
+id, Identificador do acidente, Numeric, Ex: 123
+data_inversa, Data do acidente, Date, yyyy/mm/dd
+dia_semana, Dia da semana do acidente, Factor, Ex: Segunda
+horari, Horário do acidente, hms, hh:mm:ss
+uf, Unidade da federação, Factor, Ex: SP
+br, Identificador da rodovia BR, Numeric, Ex: 116
+km, Quilômetro onde ocorreu o acidente, Numeric, Ex: 120.5
+municipio, Nome do município, Character, Ex: Taubaté
+causa_acidente, Causa principal do acidente, Factor, Ex: Falta de atenção
+tipo_acidente, Tipo de acidente, Factor, Ex: Colisão frontal
+classificacao_acidente, Gravidade do acidente, Factor, Ex: Com vítimas fatais
+fase_dia, Fase do dia, Factor, Ex: Pleno dia
+sentido_via, Sentido da via, Factor, Ex: Crescente
+condicao_meteorologica, Condição climática no momento do acidente, Factor, Ex: Céu claro
+tipo_pista, Tipo ou quantidade de faixas da pista, Factor, Ex: Simples
+tracado_via, Traçado da via, Factor, Ex: Reta
+uso_solo, Tipo de área (urbano ou rural), Factor/Logical, Urbano = sim / Rural = não
+pessoas, Total de pessoas, envolvidas, Integer, >0
+mortos, Total de óbitos, Integer, >=0
+feridos_leves,Total de feridos leves, Integer, >=0
+feridos_graves, Total de feridos graves, Integer, >=0
+ilesos, Total de pessoas ilesas, Integer, >=0
+ignorados, Total com estado físico ignorado, Integer, >=0
+feridos, Total de feridos, Integer, >=0
+veiculos, Total de veículos envolvidos, Integer, >0
+latitude, Latitude geográfica, Numeric, Ex: -15.793
+longitude, Longitude geográfica, Numeric, Ex: -47.254
+regional, Superintendência regional da PRF, Factor, Ex: SPRF-DF
+delegacia, Delegacia da PRF responsável	Factor, Ex: DEL01
+uop, Unidade operacional da PRF, Factor, Ex: UOP01
