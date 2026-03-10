@@ -2,7 +2,7 @@ DICIONÁRIO DE DADOS – DATASET ACIDENTES DE TRÂNSITO (PRF)
 
 Integrantes:
 Ryan Cruz Silva
-Rodrigo Cavalheiro
+Rodrigo Cavalheiro dos Santos
 Rafael de Sousa Rodrigues Pinto
 
 Introdução
@@ -43,4 +43,5 @@ latitude, Latitude geográfica, Numeric, Ex: -15.793
 longitude, Longitude geográfica, Numeric, Ex: -47.254
 regional, Superintendência regional da PRF, Factor, Ex: SPRF-DF
 delegacia, Delegacia da PRF responsável	Factor, Ex: DEL01
+
 uop, Unidade operacional da PRF, Factor, Ex: UOP01
